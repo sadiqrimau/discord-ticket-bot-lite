@@ -28,10 +28,9 @@ Node.js 22.13 or newer. SQLite is built into Node, so there is nothing to compil
 4. Create a staff role, a category for tickets and a private log channel. If the log channel is private, add the bot (or its role) there with *View Channel, Send Messages and Attach Files*, otherwise transcripts can't be posted.
 5. Install and configure:
    ```bash
-   git clone <this-repo>
-   cd discord-ticket-bot-lite
+   git clone https://github.com/sadiqrimau/discord-ticket-bot-lite.git
    npm install
-   cp .env.example .env   # then fill in the IDs
+   cp .env.example .env  # then fill in the IDs and Windows users can run copy .env.example .env. 
    npm start
    ```
 6. In the channel you want, run `/ticketpanel`.
