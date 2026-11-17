@@ -1,0 +1,24 @@
+{
+  "name": "discord-ticket-bot-lite",
+  "version": "1.0.0",
+  "description": "A lightweight Discord ticket bot with claim buttons, SQLite storage and Discord-style HTML transcripts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "ticket-bot",
+    "sqlite",
+    "transcripts"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.10"
+  }
+}
